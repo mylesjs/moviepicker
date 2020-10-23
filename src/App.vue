@@ -3,7 +3,7 @@
     <router-link to="/"><h1>Movie Picker</h1></router-link>
     <hr>
     <div id="nav">
-      <h4> Pick the genre movie you're in the mood to watch. </h4>
+
     </div>
     <router-view/>
     <br>
@@ -34,10 +34,5 @@
 }
 #h1{
   color: blue;
-}
-.b-button{
-  color: violet;
-  text-decoration-color: violet;
-  margin-top: 3 !important;
 }
 </style>

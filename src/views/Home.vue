@@ -1,12 +1,13 @@
 <template>
   <div class="home">
-  
-  <b-container> 
+       <h4 id="home"> Pick the genre movie you're in the mood to watch. </h4><br>
+
+  <b-container>
     <b-row class="b-row" align-h="center" col="auto">
-      <b-col><b-button variant="info">Action</b-button></b-col>
+      <b-col><b-button @click="tester()" variant="info">Action</b-button></b-col>
       <b-col><b-button variant="info">Adventure</b-button></b-col>
       <b-col><b-button variant="info">Animation</b-button></b-col>
-      <b-col><b-button variant="info">Comedy</b-button></b-col>
+      <b-col><b-button class="btn btn-danger" variant="info">Comedy</b-button></b-col>
     </b-row><br>
     <b-row class="b-row" align-h="center">
       <b-col><b-button variant="info">Crime</b-button></b-col>
@@ -51,15 +52,20 @@ export default {
   name: 'Home',
   components: {
 
+  },
+  methods : {
+    tester() {
+      this.$router.push("movie");
+    }
   }
+
 }
 </script>
 
 <style>
-.b-row{
+#home {
   color: violet;
-  text-decoration-color: violet;
-  margin-bottom: 3 !important;
 }
+
 </style>
 
