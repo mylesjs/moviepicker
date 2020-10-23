@@ -13,7 +13,7 @@
       <b-col><b-button variant="info">Drama</b-button></b-col>
       <b-col><b-button variant="info">Fantasy</b-button></b-col>
       <b-col><b-button variant="info">Historical</b-button></b-col>
-    </b-row><br>
+    </b-row><br> 
     <b-row align-h="center">
       <b-col><b-button variant="info">Horror</b-button></b-col>
       <b-col><b-button variant="info">Magical Realism</b-button></b-col>
