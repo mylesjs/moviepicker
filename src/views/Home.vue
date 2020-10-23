@@ -1,7 +1,7 @@
 <template>
   <div class="home">
   
-  <b-container>
+  <b-container> 
     <b-row class="b-row" align-h="center" col="auto">
       <b-col><b-button variant="info">Action</b-button></b-col>
       <b-col><b-button variant="info">Adventure</b-button></b-col>

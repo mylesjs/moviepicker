@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div id="app"><br>
     <router-link to="/"><h1>Movie Picker</h1></router-link>
     <hr>
